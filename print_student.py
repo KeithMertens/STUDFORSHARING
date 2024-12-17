@@ -10,5 +10,5 @@ def print_student(student_id):
         if student.student_id == student_id:
             print("Student found:")
             print(student)
-            return
+            return student
     print(f"No student found with ID: {student_id}")
